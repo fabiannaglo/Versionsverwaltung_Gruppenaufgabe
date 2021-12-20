@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Befehle</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+        <header>
+            <h1>Git Befehle</h1>
+        </header>
+
+        <main>
+
+            <div class="commando-list">
+                <div class="commando">
+                    <div class="commando-title">
+                        <pre>git commit</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Speichert Abbildung aller Dateien in diesem Projektverzeignis.<br />
+                        => Copy & Paste.<br />
+                        Kopiert jedoch nur Änderungen, nicht das ganze Verzeichnis.<br />
+                        Jeder Commit wird protokolliert<br />
+                        => ressourcenschonend, schneller Wechsel möglich<br />
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                        <pre>git branch &lt;BRANCHNAME&gt;</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Verweise auf einen bestimmten Commit (Sicherung)<br />
+		                Braucht keinen Speicherplatz => viele machen
+                    </div>
+                </div>
+      
+                <div class="commando">
+                    <div class="commando-title">
+                        <pre>git merge &lt;BRANCHNAME&gt;</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Branches zusammenführen<br />
+                        => Erzeugt neuen Commit aus mehreren Vorgänger-Commits
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git log</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Protokoll / Hashes anzeigen<br />
+                        Hash wird generiert, z.B. "fed2da64c0efc5293610bdd892f82a58e8cbc5d8"<br />
+                        Nur soviele zeigen nötig, bis es eindeutig ist, z.B. "git checkout fed2" reicht aus
+                    </div>
+                </div>
+  
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git commit ^</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Einen Commit zurück gehen
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git commit ~5</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Mehrere Commits zurück gehen durch Tilde (z.B. 5 Schritte)
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git cherry-pick</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Commits auswählen und an aktuellen Arbeits-HEAD anhängen
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git reset</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Änderungen zurücksetzen auf anderen Commit
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git revert</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Änderungen rückgängig machen
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git rebase</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Neuanordnung von Commits
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git fetch</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Daten aus anderem Repop herunterladen
+                    </div>
+                </div>
+
+                <div class="commando">
+                    <div class="commando-title">
+                       <pre>git pull</pre>
+                    </div>
+                    <div class="commando-desc">
+                        Änderungen vom Server laden und mit eigenem Repo zusammenführen
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <a href="impressum.html">Impressum</a>
+        </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

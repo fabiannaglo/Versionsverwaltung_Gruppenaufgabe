@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    background-color: #000;
+    color: #fff;
+
+}
+
+
+header{
+    background-color: rgb(18, 185, 18);
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding:15px 0;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+h1{
+    margin:0;
+}
+
+.commando-list{
+    width: 1400px;
+    max-width: 100%;
+    margin:0 auto;
+}
+
+.commando{
+    padding-top: 45px;
+}
+
+.commando:last-child{
+    padding-bottom: 45px;
+}
+
+pre{
+    background-color: #333;
+    padding:15px;
+    margin:0;
+}
+
+.commando-desc:before{
+    content:'Erklärung:';
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(18, 185, 18);
+}
+
+.commando-desc{
+    border-left: 5px solid rgb(18, 185, 18);
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(21,21,21);
+}
+
+
+footer{
+    background-color: #111;
+    padding:45px 0;
+}
+
+a{
+    width: 1400px;
+    max-width: 100%;
+    margin:0 auto;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: right;
+}
