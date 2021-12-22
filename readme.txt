@@ -1,9 +1,9 @@
-Teammitglieder: Kathrin Falch, Sarah Wirth, Paul Eitelbichler, Andreas Matejcek, Fabian Naglo, Botan Mustafa
+Teammitglieder:  Kathrin Falch, Sarah Wirth, Paul Eitelbichler, Andreas Matejcek, Fabian Naglo, Botan Mustafa
 
-Studiengang: Online-Medien
+Studiengang:     Online-Medien, DHBW Mosbach
 
-Kurs: WEB-IT
+Kurs:            T3 WEB-IT
 
-Kursleiter: Prof. Dr. Arnulf Mester
+Kursleiter:      Prof. Dr. Arnulf Mester
 
-Aufgabe: Versionsverwaltung 
+Aufgabe:         Versionsverwaltung_Gruppenaufgabe
