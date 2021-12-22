@@ -1,0 +1,10 @@
+Folgende Regeln wurden teamintern abgeklärt:
+
+1.  Passende Beschriftung
+    Änderungen müssen passend beschriftet werden, sodass jedes Teammitglied zu jedem Zeitpunkt Änderungen nachvollziehen kann.
+
+2.  Wichtige Informationen kennzeichen
+    Sollten wichtige Informationen beachtet werden, müssen diese in der dafür vorgesehenen readme.txt gekennzeichnet werden.
+
+3.  Fristgerechte Aufgabenerledigung
+    Jeder Mitglied erfüllt seine Aufgaben zuverlässig bis zur Deadline.
