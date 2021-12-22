@@ -1,12 +1,11 @@
 Versionsverwaltung
-Gruppenaufgabe Git / GitHub
+Gruppenaufgabe git / github
+_____________________________________________
 
 Teammitglieder:  Kathrin Falch, Sarah Wirth, Paul Eitelbichler, Andreas Matejcek, Fabian Naglo, Botan Mustafa
-
-Studiengang:     Online-Medien, DHBW Mosbach
-
-Kurs:            T3 WEB-IT
-
+Hochschule:      DHBW Mosbach
+Studiengang:     ON21, Onlinemedien
+Kurs:            T3, Web-IT
 Kursleiter:      Prof. Dr. Arnulf Mester
-
-Aufgabe:         Versionsverwaltung_Gruppenaufgabe
+Aufgabe:         Versionsverwaltung, Gruppenaufgabe git / github
+_____________________________________________
